@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import logo from "./assets/logo.png"; // Ensure this path is correct and logo exists
+import logo from "./assets/logo.jpg"; // Ensure this path is correct and logo exists
 
 // Card component
 const Card = ({ children, className = "" }) => (
