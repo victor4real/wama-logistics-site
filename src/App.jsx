@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import logo from "./assets/logo.png";
+import logo from "./assets/logo.jpg";
 
 const Card = ({ children, className = "" }) => (
   <div className={`bg-white rounded-lg p-4 shadow ${className}`}>{children}</div>
